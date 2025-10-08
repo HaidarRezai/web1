@@ -44,7 +44,7 @@ function About() {
             </ul>
 
             <div className="w-50 h-40  mt-3">
-                <Outlet /> {/* hier erscheinen Export ODER Import */}
+                <Outlet />
             </div>
 
             <p>this bests book</p>
