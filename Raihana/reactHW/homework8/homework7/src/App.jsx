@@ -8,6 +8,7 @@ import Gallery from "./gallery";
 import Profil from "./profil";
 import Information from "./information";
 import Amount from "./ZuStand/amount2";
+import Question from "./question";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path="information/:id" element={<Information />} />
             </Route>
             <Route path="amount" element={<Amount />} />
+            <Route path="question" element={<Question />} />
           </Routes>
         </div>
       </div>
