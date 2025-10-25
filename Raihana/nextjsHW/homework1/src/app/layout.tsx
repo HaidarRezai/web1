@@ -40,11 +40,12 @@ export default function RootLayout({
         <div className="grid grid-cols-[20%_auto] min-h-screen">
           <aside className="bg-gray-100 p-6">
             <ul className="space-y-2 font-bold text-gray-700 text-center">
+              <li><a href="/" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Basis</a></li>
               <li><a href="/html" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">HTML</a></li>
               <li><a href="/css" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">CSS</a></li>
               <li><a href="/javascript" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C] hover:to-[#fffff]">JavaScript</a></li>
-              <li><a href="#" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C] ">React</a></li>
-              <li><a href="#" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Next.js</a></li>
+              <li><a href="/react" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C] ">React</a></li>
+              <li><a href="/Next.js" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Next.js</a></li>
               <li><a href="#" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Tailwind CSS</a></li>
               <li><a href="#" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Python</a></li>
               <li><a href="#" className="block w-full py-2 rounded-xl hover:text-white hover:bg-gradient-to-r hover:from-[#E47A5C]">Django</a></li>
