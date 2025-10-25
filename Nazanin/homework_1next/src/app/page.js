@@ -1,0 +1,13 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="p-10">
+      <h1 className="text-3xl text-cyan-700"> Defult</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit perferendis voluptatem culpa, commodi obcaecati rem blanditiis deleniti dicta deserunt nam eligendi consequuntur aspernatur! Perferendis esse labore dicta praesentium eligendi.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit perferendis voluptatem culpa, commodi obcaecati rem blanditiis deleniti dicta deserunt nam eligendi consequuntur aspernatur! Perferendis esse labore dicta praesentium eligendi.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit perferendis voluptatem culpa, commodi obcaecati rem blanditiis deleniti dicta deserunt nam eligendi consequuntur aspernatur! Perferendis esse labore dicta praesentium eligendi.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit perferendis voluptatem culpa, commodi obcaecati rem blanditiis deleniti dicta deserunt nam eligendi consequuntur aspernatur! Perferendis esse labore dicta praesentium eligendi.</p>
+    </div>
+  );
+}
