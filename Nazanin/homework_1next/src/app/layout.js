@@ -2,7 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 
+
 import Nav from "./navbar/nav";
+import Home2 from "./home/home2/page";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,20 +24,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className=" grid grid-cols-[20%_auto] p-0 bg-zinc-900"   >
-        <nav className="border border-t-0 border-r-0 border-l-0  col-start-1 col-end-3 h-30 p-10 bg-zinc-900">
+        <nav className="  border  border-gray-600  border-t-0 border-r-0 border-l-0  col-start-1 col-end-3 h-30 p-10 bg-zinc-900">
           < Nav />
+
         </nav>
         <aside className="bg-zinc-800  h-200 " >
-          <ul className=" leading-10">
-            <li className="hover:bg-cyan-900 px-4 py-1 "><a href="/">Defult</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1 "><a href="/home">Home</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1 "><a href="/about">About</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="/contact">Contact</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="">Contact</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="">Galary</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="">Catagory</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="">Produktin</a></li>
-            <li className="hover:bg-cyan-900 px-4 py-1"><a href="">Contact</a></li>
+          <ul className=" leading-10 text-xl ">
+            <a href="/"> <li className="hover:bg-cyan-900 px-4 py-1 ">Defult</li></a>
+            <a href="/home"><li className="hover:bg-cyan-900 px-4 py-1 ">Home</li></a>
+            <a href="/about"><li className="hover:bg-cyan-900 px-4 py-1 ">About</li></a>
+            <a href="/contact"><li className="hover:bg-cyan-900 px-4 py-1">Contact</li></a>
+            <a href="/Produkten"><li className="hover:bg-cyan-900 px-4 py-1">Produkten</li></a>
+            <a href="/galary"><li className="hover:bg-cyan-900 px-4 py-1">Galary</li></a>
+            <a href="/contact"><li className="hover:bg-cyan-900 px-4 py-1"></li></a>
+            <a href="/Exam"><li className="hover:bg-cyan-900 px-4 py-1">Exam</li></a>
+            <a href="/Exersize"><li className="hover:bg-cyan-900 px-4 py-1">Exersize</li></a>
+            <a href="/Certificate"><li className="hover:bg-cyan-900 px-4 py-1">Certificate</li></a>
+            <a href="/Performance"><li className="hover:bg-cyan-900 px-4 py-1">Performance</li></a>
+            <a href="/>Tutorial"><li className="hover:bg-cyan-900 px-4 py-1">Tutorial</li></a>
           </ul>
         </aside>
         {children}
